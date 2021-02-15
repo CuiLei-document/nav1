@@ -62,6 +62,7 @@ $('.addButton')
        const string = JSON.stringify(hashMap)
        localStorage.setItem('x', string)
    }
+   // 键盘按键打开网址绑定 
 $(document).on('keypress', (e)=>{
     const {key} = e
     // console.log(e.key)
