@@ -173,7 +173,8 @@ $('.addButton').on('click', function () {
 window.onbeforeunload = function () {
   var string = JSON.stringify(hashMap);
   localStorage.setItem('x', string);
-};
+}; // 键盘按键打开网址绑定 
+
 
 $(document).on('keypress', function (e) {
   var key = e.key; // console.log(e.key)
@@ -185,4 +186,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.4ca53c4b.js.map
+//# sourceMappingURL=main.e429e15b.js.map
